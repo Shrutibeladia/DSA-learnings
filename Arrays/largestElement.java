@@ -2,6 +2,7 @@
 //que given an array we have to find the largest element in an array 
 
 //brute force - 1. sort an array Arrays.sort()  2. print last element (size-1)th idx.
+//tc - O(n*log n)
 
 //better sol - recursive approach
 /*1. take a max variable  as arr[0].
@@ -35,3 +36,5 @@ public class largestElement {
         sc.close();
     }
 }
+
+//tc - O(n);
